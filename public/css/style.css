@@ -1,0 +1,138 @@
+html  {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.border-gradient{
+    border-image-source: linear-gradient(to bottom, #3B82F6, #4338CA, #3B82F6);
+    border-image-slice: 1;
+}
+
+.border-gradient-right{
+    border-image-source: linear-gradient(to right, blue, #3B82F6, blue);
+    border-image-slice: 1;
+}
+
+/* Background */
+.bg-gradient-nav{
+    background-image: linear-gradient(to down, black, purple);
+}
+
+.bg-nav{
+    background: rgba(black, black, black, 0.50) !important;
+}
+
+.bg-login{
+    background-image: url("/images/loginpage.png");
+    background-size: cover;
+}
+
+.bg-regis{
+    background-image: url("/images/registerpage.png");
+    background-size: cover;
+}
+
+.bg-home{
+    background-image: url("/images/homepage.png");
+}
+
+.bg-about{
+    background-image: url("/images/aboutpage.png");
+}
+
+.bg-champ{
+    background-image: url("/images/championpage.png");
+}
+
+.bg-faq{
+    background-image: url("/images/faqpage.png");
+}
+
+.bg-timeline{
+    background-image: url("/images/timelinepage.png");
+}
+
+.bg-image{
+    background-image: url("/web.jpg");
+    background-size: cover;
+}
+.bg-welcome{
+    background-image: url("/welcome.jpg");
+    background-size: cover;
+}
+.bg-update{
+    background-image: url("/update.png");
+    background-size: cover;
+}
+
+.bg-edit{
+    background-image: url("/edit.jpg");
+    background-size: cover;
+}
+
+.bg-orange{
+    background-color: #E0473F;
+}
+
+.bg-ocean{
+    background-color: #40A4FF;
+}
+
+.bg-dust{
+    background: #65789D;
+}
+
+.font-yellow{
+    color: #fee0a0;
+}
+
+.border-colorful{
+    animation-name: border-colorful;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border-colorful{
+    0%{
+        border-color: #40A4FF;
+    } 25%{
+        border-color: #3B82F6;
+    }50%{
+        border-color: #4338CA;
+    } 75%{
+        border-color: #3B82F6;
+    } 100%{
+        border-color: #40A4FF;
+    }
+}
+
+.bg-purples{
+    background: #574292;
+}
+
+.bg-darkpurple{
+    background: #412E77;
+}
+
+.purples{
+    background: #3c2e63;
+    
+}
+
+.is-invalid{
+    border-color: #db3f39;
+}
+
+.invalid-feedback {
+    /* display: none; */
+    width: 100%;
+    margin-top: 0.15rem;
+    font-size: 80%;
+    color: #db3f39;
+  }
+  
